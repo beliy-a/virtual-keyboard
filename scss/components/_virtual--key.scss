@@ -1,0 +1,57 @@
+.virtual--key {
+    @include size(40px, 40px);
+    font-size: 1.6rem;
+    color: $light-color;
+    background-color: $primary-color;
+    border-radius: 3px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .25s linear;
+    cursor: pointer;
+    &:hover {
+        background-color: $key--hover;
+    }
+}
+
+.Backspace,
+.CapsLock,
+.ShiftLeft {
+    width: 100px;
+}
+.Tab {
+    width: 50px;
+}
+.Enter,
+.ShiftRight {
+    width: 85px;
+}
+
+.Tab,
+.Backspace,
+.Delete,
+.CapsLock,
+.Enter,
+.ShiftLeft,
+.ArrowUp,
+.ShiftRight,
+.ControlLeft,
+.MetaLeft,
+.AltLeft,
+.AltRight,
+.ArrowLeft,
+.ArrowDown,
+.ArrowRight,
+.ControlRight {
+    background-color: $secondary-color;
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+.Space {
+    width: 358px;
+}

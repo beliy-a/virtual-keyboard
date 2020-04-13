@@ -1,0 +1,16 @@
+.virtual-keyboard {
+    width: 100%;
+    min-height: 100px;
+    padding: 5px;
+    background-color: $virtual-keyboard--bg;
+    border: 3px solid $virtual-keyboard--bor;
+    border-radius: 5px;
+    &--row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    &--row:last-child {
+        margin-bottom: 0;
+    }
+}
