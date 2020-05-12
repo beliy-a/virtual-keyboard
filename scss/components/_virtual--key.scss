@@ -15,6 +15,7 @@
     }
 }
 
+
 .Backspace,
 .CapsLock,
 .ShiftLeft {
@@ -48,10 +49,12 @@
     font-weight: 600;
 }
 
-.hidden {
-    display: none;
-}
-
 .Space {
     width: 358px;
+}
+
+
+.virtual--key.active {
+    background-color: greenyellow;
+    border-radius: 10px;
 }

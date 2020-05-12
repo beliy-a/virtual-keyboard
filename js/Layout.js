@@ -17,6 +17,7 @@ export class Layout {
     }
 
     renderToDom() {
+        document.body.innerHTML = '';
         document.body.append(this.generateLayout());
     }
 }
